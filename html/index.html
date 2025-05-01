@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghost Admin Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap">
+</head>
+<body>
+    <div id="ghost-title">Ghost Admin Shop</div>
+    <div id="shop-dashboard">
+        <button id="close-btn" title="Cerrar">❌</button>
+        <div id="cash-bar"><span id="cash-icon">💵</span> <span id="cash-amount">$25,000</span></div>
+        <div id="categories-grid">
+            <!-- Las tarjetas de categorías se llenan por JS -->
+        </div>
+        <div id="bottom-bar">
+            <span id="selected-item">Selected Item: None</span>
+            <input type="number" id="quantity" min="1" value="1" style="width:60px; margin:0 10px;">
+            <select id="payment-method">
+                <option value="cash">Cash</option>
+                <option value="bank">Bank</option>
+            </select>
+            <button id="purchase-btn">Purchase</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
