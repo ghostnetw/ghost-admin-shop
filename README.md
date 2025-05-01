@@ -19,7 +19,7 @@ A modern, transparent, and fully-featured admin shop for FiveM, designed for QBC
 
 ## 🖥️ Preview
 
-![Dashboard Preview](preview.png) <!-- Add a screenshot if available -->
+![Dashboard Preview](https://i.imgur.com/sEz1ahw.png)
 
 ---
 
@@ -27,7 +27,7 @@ A modern, transparent, and fully-featured admin shop for FiveM, designed for QBC
 
 1. **Download or clone this repository** into your FiveM resources folder:
    ```bash
-   git clone https://github.com/yourname/ghost-admin-shop.git
+   git clone https://github.com/ghostnetw/ghost-admin-shop.git
    ```
 2. **Add to your server.cfg:**
    ```
